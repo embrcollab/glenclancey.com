@@ -39,7 +39,8 @@ summaryLength = 0
 
 [params.list]
   groupByYear = true
-  showBreadcrumbs = false
+  showBreadcrumbs = true
+  showSummary = true
 
 [params.article]
   showBreadcrumbs = false
@@ -48,7 +49,7 @@ summaryLength = 0
   editAppendPath = false
   dateFormat = "2 January 2006"
   showAuthor = false
-  showDate = true
+  showDate = false
   showDraftLabel = false
   showHeadingAnchors = true
   showPagination = false
