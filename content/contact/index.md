@@ -8,7 +8,7 @@ tags: ["contact"]
 
 ## Drop me a line.
 
-You can reach me via [email](mailto:glenclancey@hotmail.com) or [instagram](https://www.instagram.com/_ageusic_/),
+You can reach me via [email](mailto:contact@glenclancey.com) or on [instagram](https://www.instagram.com/_ageusic_/),
 or by submitting a request below. I'll get back to you as soon as I can.
 
 <style>

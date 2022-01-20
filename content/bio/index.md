@@ -8,7 +8,7 @@ tags: ["bio"]
 
 ## Glen Clancey
 
-Born in Canberra, ACT
+Born in Canberra, ACT<br />
 Lives & Works in Melbourne, VIC
 
 ## CV
