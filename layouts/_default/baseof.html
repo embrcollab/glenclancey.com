@@ -27,13 +27,21 @@
       lg:px-32
       dark:bg-neutral-800 dark:text-neutral
       max-w-7xl
-    "
-    style="background-image: url('{{ .Params.featured_image }}');        
-        background-position: left top;
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: auto;"
+    "    
   >
+  <video id="background-video" autoplay loop muted style="
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: -1;">
+    <source src="{{ .Params.featured_image }}'" type="video/mp4">
+  </video>
+
     {{- partial "header.html" . -}}
     <main class="flex-grow">{{- block "main" . }}{{- end }}</main>
     {{- partial "footer.html" . -}}
