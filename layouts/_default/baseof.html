@@ -27,15 +27,12 @@
       lg:px-32
       dark:bg-neutral-800 dark:text-neutral
       max-w-7xl
-      w-full
-      h-screen
     "
-    style="
-      background-image: url(/img/fullsize-bg.gif);
-      background-position: left top;
-      background-size: cover;
-      background-repeat: no-repeat;
-    "
+    style="background-image: url('{{ .Params.featured_image }}');        
+        background-position: left top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: auto;"
   >
     {{- partial "header.html" . -}}
     <main class="flex-grow">{{- block "main" . }}{{- end }}</main>

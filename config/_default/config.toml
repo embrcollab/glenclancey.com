@@ -4,11 +4,11 @@
 
 # baseURL = "https://your_domain.com/"
 
-theme = "congo"
+theme = ["congo", "hugo-shortcode-gallery"]
 languageCode = "en-AU"
 defaultContentLanguage = "en"
 title = "Glen Clancey"
-# copyright = "Copy, _right?_ :thinking_face:"
+# \\copyright = "Copy, _right?_ :thinking_face:"
 enableEmoji = true
 summaryLength = 0
 enableRobotsTXT = true

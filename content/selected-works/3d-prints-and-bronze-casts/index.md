@@ -1,5 +1,5 @@
 ---
-title: "3d Prints and Bronze Casts"
+title: "3D Prints and Bronze Casts"
 draft: false
 date: 2015-06-01
 description: ""
@@ -7,4 +7,4 @@ slug: "3d-prints-and-bronze-casts"
 tags: ["selected-works"]
 ---
 
-{{< gallery dir="/img/selected-works/3d-prints-and-bronze-casts/" />}} {{< load-photoswipe >}}
+{{< gallery match="images/*" sortOrder="desc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}

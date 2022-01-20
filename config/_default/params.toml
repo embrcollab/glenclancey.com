@@ -7,22 +7,23 @@
 
   # logo = "logo.jpg"
 colorScheme = "Ocean"
-darkToggle = "true"
-darkMode = "false"
-mainSections = ["selected-works"]
+darkMode = false
+darkToggle = true
 # description = "My awesome website"
 # robots = ""
+attribution = true
 
 [homepage]
   layout = "page"
   showRecent = false
+  
 
 [article]
   showBreadcrumbs = false
   showEdit = false
   editURL = ""
   editAppendPath = false
-  dateFormat = "2 January 2006"
+  dateFormat = "2006"
   showAuthor = false
   showDate = false
   showDraftLabel = false
@@ -36,6 +37,7 @@ mainSections = ["selected-works"]
   groupByYear = true
   showBreadcrumbs = true
   showSummary = true
+  mainSections = ["selected-works"]
 
 [taxonomy]
   showTermCount = true
