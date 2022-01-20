@@ -7,4 +7,6 @@ slug: "thriller-at-the-temple-of-sybill"
 tags: ["selected-works"]
 ---
 
-{{< gallery match="images/*" sortOrder="desc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview="true" >}}
+Finding the connections between the fantastical worlds of Giovanni Battista Piranesi and Michael Jackson
+
+{{< vimeo 119720812 >}}
