@@ -39,9 +39,8 @@
       top: 0;
       bottom: 0;
       z-index: -1;">
-    <source src="{{ .Params.featured_image }}'" type="video/mp4">
+    <source src="{{ .Params.featured_image }}" type="video/mp4">
   </video>
-
     {{- partial "header.html" . -}}
     <main class="flex-grow">{{- block "main" . }}{{- end }}</main>
     {{- partial "footer.html" . -}}
