@@ -39,7 +39,13 @@
             >
           </li>
         {{ end }}
+        {{ if .Params.playpause }}
+        <li> 
+          {{ partial "pauseplay.html" }}
+        </li>
+        {{ end }}
       </ul>
+      
     </nav>
   {{ end }}
 </header>
