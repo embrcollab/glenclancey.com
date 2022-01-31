@@ -4,7 +4,7 @@ draft: false
 description: ""
 slug: "/"
 tags: [""]
-featured_image: "background-video.mp4"
+featured_image: "bg.mp4"
 playpause: true
 ---
 
